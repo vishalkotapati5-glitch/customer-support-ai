@@ -1,31 +1,176 @@
-message,category,priority
-"I forgot my password and can't access my account.",Account Issue,Low
-"I was charged twice for the same order.",Payment Issue,High
-"Where is my order? It was supposed to arrive yesterday.",Order Issue,Medium
-"I requested a refund yesterday. When will I receive it?",Refund Issue,Medium
-"The application crashes whenever I try to open it.",Technical Issue,Medium
-"I cannot update my phone number in my profile.",Account Issue,Medium
-"My payment failed but the amount was deducted from my bank account.",Payment Issue,High
-"My order has not arrived even though it was shipped two weeks ago.",Order Issue,High
-"The refund hasn't arrived after 15 days.",Refund Issue,High
-"The website is completely down and I cannot place an order.",Technical Issue,High
-"I forgot my username and cannot sign in.",Account Issue,Low
-"I need help changing my account email address.",Account Issue,Low
-"Someone tried to access my account.",Account Issue,High
-"My card was charged but the transaction failed.",Payment Issue,High
-"I don't understand this charge on my bill.",Payment Issue,Medium
-"Can I use another payment method?",Payment Issue,Low
-"My package is arriving later than expected.",Order Issue,Medium
-"I received the wrong product in my order.",Order Issue,High
-"How can I track my order?",Order Issue,Low
-"My order was cancelled unexpectedly.",Order Issue,High
-"How do I request a refund?",Refund Issue,Low
-"I haven't received my refund after three days.",Refund Issue,Medium
-"My refund has been missing for a month.",Refund Issue,High
-"Can I get a refund for my cancelled order?",Refund Issue,Medium
-"The app shows a blank screen.",Technical Issue,Medium
-"The website is loading very slowly.",Technical Issue,Low
-"I cannot open the application at all.",Technical Issue,High
-"The website keeps displaying an error message.",Technical Issue,Medium
-"The login page is not working.",Technical Issue,High
-"The app stopped working after the latest update.",Technical Issue,Medium
+id,message,category,priority
+1,I forgot my password and cannot access my account.,Account Issue,Low
+2,I forgot my username and cannot sign in.,Account Issue,Low
+3,How can I change my account email?,Account Issue,Low
+4,I need help updating my profile information.,Account Issue,Low
+5,How do I change my account password?,Account Issue,Low
+6,I cannot update my phone number.,Account Issue,Medium
+7,My account information is not saving.,Account Issue,Medium
+8,I am unable to change my email address.,Account Issue,Medium
+9,My profile changes are not being saved.,Account Issue,Medium
+10,I cannot access my account after changing my password.,Account Issue,Medium
+11,Someone tried to access my account.,Account Issue,High
+12,I think someone has hacked my account.,Account Issue,High
+13,There is suspicious activity on my account.,Account Issue,High
+14,My account was accessed by someone else.,Account Issue,High
+15,I received an alert about an unknown login.,Account Issue,High
+16,Someone changed my account details without permission.,Account Issue,High
+17,I cannot log into my account.,Account Issue,Medium
+18,My account is locked.,Account Issue,Medium
+19,I need to recover my account.,Account Issue,Medium
+20,My login credentials are not working.,Account Issue,Medium
+21,How do I reset my password?,Account Issue,Low
+22,Can I change the email linked to my account?,Account Issue,Low
+23,I want to update my profile.,Account Issue,Low
+24,I forgot my login password.,Account Issue,Low
+25,Where can I change my username?,Account Issue,Low
+26,My account has been locked unexpectedly.,Account Issue,Medium
+27,The verification code is not working.,Account Issue,Medium
+28,I am not receiving the account verification code.,Account Issue,Medium
+29,My account login keeps failing.,Account Issue,Medium
+30,I cannot sign into my account from my phone.,Account Issue,Medium
+31,I am having trouble logging into my account.,Account Issue,Medium
+32,My account verification is taking too long.,Account Issue,Medium
+33,I cannot update my account information.,Account Issue,Medium
+34,I was charged twice for the same order.,Payment Issue,High
+35,My payment failed but the money was deducted.,Payment Issue,High
+36,My card was charged but the transaction failed.,Payment Issue,High
+37,Money was deducted even though payment failed.,Payment Issue,High
+38,I was charged twice for one purchase.,Payment Issue,High
+39,The payment failed but I was still charged.,Payment Issue,High
+40,My bank account was charged but the order failed.,Payment Issue,High
+41,I see an extra charge on my account.,Payment Issue,Medium
+42,I don't understand this charge on my bill.,Payment Issue,Medium
+43,There is an unfamiliar charge on my statement.,Payment Issue,Medium
+44,Why was I charged this amount?,Payment Issue,Medium
+45,The payment amount looks incorrect.,Payment Issue,Medium
+46,My payment is still processing.,Payment Issue,Medium
+47,The transaction is showing as pending.,Payment Issue,Medium
+48,My card payment is pending.,Payment Issue,Medium
+49,Why is my payment pending?,Payment Issue,Medium
+50,Can I use another payment method?,Payment Issue,Low
+51,What payment methods do you accept?,Payment Issue,Low
+52,Can I pay using another card?,Payment Issue,Low
+53,How can I change my payment method?,Payment Issue,Low
+54,Do you accept online payments?,Payment Issue,Low
+55,Can I use a different card?,Payment Issue,Low
+56,How do I make a payment?,Payment Issue,Low
+57,Which payment options are available?,Payment Issue,Low
+58,Can I use a debit card?,Payment Issue,Low
+59,My payment was declined.,Payment Issue,High
+60,My card was declined during checkout.,Payment Issue,High
+61,The transaction failed during checkout.,Payment Issue,High
+62,My payment keeps failing.,Payment Issue,High
+63,I cannot complete my payment.,Payment Issue,High
+64,My bank account was charged but the payment failed.,Payment Issue,High
+65,Money was deducted from my bank account but payment failed.,Payment Issue,High
+66,My account was charged even though the payment did not go through.,Payment Issue,High
+67,The order failed but my card was charged.,Payment Issue,High
+68,I was charged but my purchase was unsuccessful.,Payment Issue,High
+69,My payment is still pending.,Payment Issue,Medium
+70,The payment is taking longer than expected.,Payment Issue,Medium
+71,My card payment has not completed yet.,Payment Issue,Medium
+72,Where is my order? It was supposed to arrive yesterday.,Order Issue,Medium
+73,My order has not arrived.,Order Issue,Medium
+74,My package is arriving later than expected.,Order Issue,Medium
+75,My delivery is delayed.,Order Issue,Medium
+76,The order is taking longer than expected.,Order Issue,Medium
+77,My package has been delayed.,Order Issue,Medium
+78,The delivery date has passed.,Order Issue,High
+79,My order is two weeks late.,Order Issue,High
+80,My package has not arrived after two weeks.,Order Issue,High
+81,My order is extremely delayed.,Order Issue,High
+82,I have been waiting for my order for a long time.,Order Issue,High
+83,My package has been missing for several days.,Order Issue,High
+84,I received the wrong product.,Order Issue,High
+85,The wrong item was delivered.,Order Issue,High
+86,My order contains the wrong product.,Order Issue,High
+87,I received an incorrect item.,Order Issue,High
+88,My order was cancelled unexpectedly.,Order Issue,High
+89,My order was cancelled without my permission.,Order Issue,High
+90,Why was my order cancelled?,Order Issue,High
+91,My order was cancelled automatically.,Order Issue,High
+92,How can I track my order?,Order Issue,Low
+93,Where can I find my tracking information?,Order Issue,Low
+94,Can I track my package?,Order Issue,Low
+95,I want to check my delivery status.,Order Issue,Low
+96,How do I track my shipment?,Order Issue,Low
+97,Where is my tracking number?,Order Issue,Low
+98,Can you tell me where my package is?,Order Issue,Low
+99,When will my order arrive?,Order Issue,Low
+100,How long does delivery take?,Order Issue,Low
+101,What is the expected delivery date?,Order Issue,Low
+102,My delivery is one day late.,Order Issue,Medium
+103,My package is delayed by a few days.,Order Issue,Medium
+104,My order is taking longer than expected.,Order Issue,Medium
+105,How do I request a refund?,Refund Issue,Low
+106,Can I get a refund?,Refund Issue,Low
+107,I want to request a refund.,Refund Issue,Low
+108,How can I get my money back?,Refund Issue,Low
+109,What is the refund process?,Refund Issue,Low
+110,How do refunds work?,Refund Issue,Low
+111,I requested a refund yesterday.,Refund Issue,Medium
+112,I haven't received my refund after three days.,Refund Issue,Medium
+113,My refund is still processing.,Refund Issue,Medium
+114,When will my refund arrive?,Refund Issue,Medium
+115,How long does a refund take?,Refund Issue,Medium
+116,I am waiting for my refund.,Refund Issue,Medium
+117,My refund has not arrived after a week.,Refund Issue,Medium
+118,I requested a refund several days ago.,Refund Issue,Medium
+119,My refund is delayed.,Refund Issue,Medium
+120,The refund hasn't arrived after 15 days.,Refund Issue,High
+121,My refund has been missing for a month.,Refund Issue,High
+122,I have been waiting for my refund for weeks.,Refund Issue,High
+123,My refund is overdue.,Refund Issue,High
+124,I still haven't received my money back after a month.,Refund Issue,High
+125,My refund has not arrived after several weeks.,Refund Issue,High
+126,Where is my refund after 30 days?,Refund Issue,High
+127,I have been waiting too long for my refund.,Refund Issue,High
+128,My refund is missing.,Refund Issue,High
+129,Can I get a refund for my cancelled order?,Refund Issue,Medium
+130,I need a refund for a cancelled order.,Refund Issue,Medium
+131,How do I get my money back for a cancelled order?,Refund Issue,Medium
+132,I want to cancel and request a refund.,Refund Issue,Medium
+133,Can I request a refund for my purchase?,Refund Issue,Low
+134,I want to know the refund policy.,Refund Issue,Low
+135,My refund has not arrived after 20 days.,Refund Issue,High
+136,I have been waiting 30 days for my refund.,Refund Issue,High
+137,My refund is still missing after 30 days.,Refund Issue,High
+138,I haven't received my refund after several weeks.,Refund Issue,High
+139,My refund is overdue by several weeks.,Refund Issue,High
+140,I requested a refund a few days ago.,Refund Issue,Medium
+141,My refund is taking longer than expected.,Refund Issue,Medium
+142,I am still waiting for my refund.,Refund Issue,Medium
+143,The application crashes whenever I open it.,Technical Issue,Medium
+144,The app shows a blank screen.,Technical Issue,Medium
+145,The website is loading very slowly.,Technical Issue,Low
+146,The website keeps displaying an error message.,Technical Issue,Medium
+147,The app stopped working after the latest update.,Technical Issue,Medium
+148,The application is running slowly.,Technical Issue,Low
+149,The website takes too long to load.,Technical Issue,Low
+150,The app is freezing.,Technical Issue,Medium
+151,The screen becomes unresponsive.,Technical Issue,Medium
+152,The website is showing an error.,Technical Issue,Medium
+153,I cannot open the application.,Technical Issue,High
+154,The website is completely down.,Technical Issue,High
+155,I cannot access the website at all.,Technical Issue,High
+156,The app will not start.,Technical Issue,High
+157,The application crashes every time I open it.,Technical Issue,High
+158,The login page is not working.,Technical Issue,High
+159,The entire website is unavailable.,Technical Issue,High
+160,The app is completely unusable.,Technical Issue,High
+161,I cannot use the application at all.,Technical Issue,High
+162,The website has stopped working.,Technical Issue,High
+163,The app takes a long time to respond.,Technical Issue,Low
+164,Some pages are loading slowly.,Technical Issue,Low
+165,The website response is slow.,Technical Issue,Low
+166,The app is a little slow.,Technical Issue,Low
+167,The page is taking too long to load.,Technical Issue,Low
+168,The website sometimes shows errors.,Technical Issue,Medium
+169,I keep getting an error on the website.,Technical Issue,Medium
+170,The app displays an error message.,Technical Issue,Medium
+171,The application has stopped responding.,Technical Issue,Medium
+172,The website is not responding properly.,Technical Issue,Medium
+173,The app sometimes freezes.,Technical Issue,Medium
+174,The website occasionally shows an error.,Technical Issue,Medium
+175,The application is having occasional problems.,Technical Issue,Medium
