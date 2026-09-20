@@ -1,0 +1,31 @@
+message,category,priority
+"I forgot my password and can't access my account.",Account Issue,Low
+"I was charged twice for the same order.",Payment Issue,High
+"Where is my order? It was supposed to arrive yesterday.",Order Issue,Medium
+"I requested a refund yesterday. When will I receive it?",Refund Issue,Medium
+"The application crashes whenever I try to open it.",Technical Issue,Medium
+"I cannot update my phone number in my profile.",Account Issue,Medium
+"My payment failed but the amount was deducted from my bank account.",Payment Issue,High
+"My order has not arrived even though it was shipped two weeks ago.",Order Issue,High
+"The refund hasn't arrived after 15 days.",Refund Issue,High
+"The website is completely down and I cannot place an order.",Technical Issue,High
+"I forgot my username and cannot sign in.",Account Issue,Low
+"I need help changing my account email address.",Account Issue,Low
+"Someone tried to access my account.",Account Issue,High
+"My card was charged but the transaction failed.",Payment Issue,High
+"I don't understand this charge on my bill.",Payment Issue,Medium
+"Can I use another payment method?",Payment Issue,Low
+"My package is arriving later than expected.",Order Issue,Medium
+"I received the wrong product in my order.",Order Issue,High
+"How can I track my order?",Order Issue,Low
+"My order was cancelled unexpectedly.",Order Issue,High
+"How do I request a refund?",Refund Issue,Low
+"I haven't received my refund after three days.",Refund Issue,Medium
+"My refund has been missing for a month.",Refund Issue,High
+"Can I get a refund for my cancelled order?",Refund Issue,Medium
+"The app shows a blank screen.",Technical Issue,Medium
+"The website is loading very slowly.",Technical Issue,Low
+"I cannot open the application at all.",Technical Issue,High
+"The website keeps displaying an error message.",Technical Issue,Medium
+"The login page is not working.",Technical Issue,High
+"The app stopped working after the latest update.",Technical Issue,Medium
